@@ -1,0 +1,93 @@
+﻿<Window x:Class="WPFFILIPPOV_YPR4.Window10"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFFILIPPOV_YPR4"
+        mc:Ignorable="d"
+        Title="Window10" Height="450" Width="800">
+    <Grid Margin="0,0,-226,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="38*"/>
+            <ColumnDefinition Width="15*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Height="200" Width="300" VerticalAlignment="Center" HorizontalAlignment="Left" Background="Azure" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Label Grid.ColumnSpan="6" VerticalAlignment="Center" Content="Первая Автоколонка" Grid.Row="0" Grid.Column="3" />
+            <Button Grid.ColumnSpan="5" Content="Автоколонка" Grid.Row="1" Grid.Column="0" Background="Beige" />
+            <Button Grid.ColumnSpan="5" Content="Автоколонка" Grid.Row="1" Grid.Column="6" Background="Bisque" />
+        </Grid>
+
+        <Grid Height="200" Width="300" VerticalAlignment="Center" HorizontalAlignment="Left" Background="NavajoWhite" Grid.ColumnSpan="2" Margin="707,0,0,0" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="0.2*"/>
+            </Grid.RowDefinitions>
+            <Label Grid.ColumnSpan="6" VerticalAlignment="Center" Content="Третья Автоколонка" Grid.Row="0" Grid.Column="3" />
+        </Grid>
+
+        <Grid Height="200" Width="300" VerticalAlignment="Center" Background="BurlyWood" Margin="344,0,78,0" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="0.2*"/>
+            </Grid.RowDefinitions>
+            <Label Grid.ColumnSpan="6" VerticalAlignment="Center" Content="Вторая Автоколонка" Grid.Row="0" Grid.Column="3" />
+            <Button Grid.ColumnSpan="6" Grid.RowSpan="2" Content="6 of 12" Grid.Row="1" Grid.Column="0" Background="Beige" />
+            <Button Grid.ColumnSpan="4" Grid.RowSpan="2" Content="4 of 12" Grid.Row="1" Grid.Column="8" Background="Bisque" />
+            <Button Grid.ColumnSpan="1" Grid.RowSpan="2" Content="4 of 12" Grid.Row="1" Grid.Column="14" Background="Firebrick" />
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,31 @@
+﻿<Window x:Class="WPFFILIPPOV_YPR4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFFILIPPOV_YPR4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Win1" Content="Задание№1(А)" Click="Win1_Click" Margin="0,0,687,372"/>
+        <Button x:Name="Win2" Content="Задание№1(Б)" Click="Win2_Click" Margin="113,-2,529,372"/>
+
+
+        <Button x:Name="Win3" Content="Задание№2(А)" Click="Win3_Click" Margin="-2,63,616,318"/>
+        <Button x:Name="Win4" Content="Задание№2(Б)" Click="Win4_Click" Margin="186,65,459,316"/>
+        <Button x:Name="Win5" Content="Задание№2(В)" Click="Win5_Click" Margin="344,66,273,317"/>
+        <Button x:Name="Win6" Content="Задание№2(Г)" Click="Win6_Click" Margin="542,77,94,316"/>
+
+        <Button x:Name="Win7" Content="Задание№3(А)" Click="Win7_Click" Margin="-4,119,625,253"/>
+        <Button x:Name="Win8" Content="Задание№3(Б)" Click="Win8_Click" Margin="185,119,455,255"/>
+        <Button x:Name="Win9" Content="Задание№3(В)" Click="Win9_Click" Margin="352,126,288,250"/>
+        <Button x:Name="Win10" Content="Задание№3(Г)" Click="Win10_Click" Margin="534,128,102,253"/>
+
+        <Button x:Name="Win12" Content="Задание№4(А)" Click="Win12_Click" Margin="-6,189,632,200"/>
+        <Button x:Name="Win13" Content="Задание№4(Б)" Click="Win13_Click" Margin="184,190,452,172"/>
+        <Button x:Name="Win14" Content="Задание№4(В)" Click="Win14_Click" Margin="368,197,292,181"/>
+        <Button x:Name="Win15" Content="Задание№4(Г)" Click="Win15_Click" Margin="532,274,124,100"/>
+        <Button x:Name="Win16" Content="Задание№4(Д)" Click="Win16_Click" Margin="523,204,125,176"/>
+
+    </Grid>
+</Window>
